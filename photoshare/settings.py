@@ -31,7 +31,7 @@ SECRET_KEY = 'm-un_db=x5c@_6f%%ngz=4_$x%jqohc71$*yg2=8_5%4p&hh#('
 DEBUG = True
 
 # ALLOWED_HOSTS = ['photoshare.vercel.app']
-ALLOWED_HOSTS = ['https://photo-album-production-2aa3.up.railway.app']
+ALLOWED_HOSTS = ['https://photo-album-production-2aa3.up.railway.app', 'photo-album-production-2aa3.up.railway.app']
 
 CSRF_TRUSTED_ORIGINS = ['https://photo-album-production-2aa3.up.railway.app']
 
