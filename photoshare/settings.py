@@ -97,9 +97,8 @@ DATABASES = {
         'PORT': os.getenv('PGPORT'),
     }
 }
-# DATABASES = {
-#     'default': dj_database_url.config(default=os.getenv('DATABASE_URL'))
-# }
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
 
 
